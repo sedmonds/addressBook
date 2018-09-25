@@ -1,8 +1,17 @@
-// Get our test to turn green for *AddressBook is not defined*
-
-// 1. create AddressBook constructor function
+// 1. Error: AddressBook book is not defined
 function AddressBook() {
+
+	this.contacts = [];
 
 }
 
-// Expected: "ReferenceError: Contact is not defined"
+AddressBook.prototype.addContact = function(contact) {
+	this.contacts.push(contact);
+}
+
+AddressBook.prototype.getContact = function(index) {
+	return this.contacts[index];
+}
+
+
+

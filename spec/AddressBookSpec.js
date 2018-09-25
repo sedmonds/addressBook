@@ -1,28 +1,3 @@
-/* Functionality Useful for an Address Book */
-
-// let's create an outline
-  //-- "describe" identifies suite, group of specs
-    //-- "it" identifies spec, defines test boundary
-
-	//-- each tests starts with a call to a spec 
-  		//-- spec func excepts a single value, 'the actual'
-    	//-- comparison frame work called 'matcher',eg. toBe()
-
-/* 
-  -- example spec --
-
-  it('should consider this spec', function(){
-    expect(true).toBe(true);
-    expect(false).not.toBe(false);
-  });
-
-*/
-//-- things to remember
-// a spec can have multiple tests
-// remember, each test must return *true* for test to pass
-
-
-// First Test Run
 describe('Address Book', function() {
 
 	// Adding a Contact 
@@ -38,5 +13,4 @@ describe('Address Book', function() {
 
 });
 
-//-- Expect *red* portion of Refactor Cycle
 

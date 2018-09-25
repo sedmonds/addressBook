@@ -2,11 +2,6 @@
 
 The TDD Cycle: Red-Green-Refactor
 
-## How To Use:
-1. Follow along with my Git commits
-	- initial commit and setup results in:
-		![red flag](img/red.png)
-
 ## Built with
 1. [HTML](whatwg.org) - Hypertext Markup Language
 2. [Jasmine](https://jasmine.github.io/) - an open source testing framework for JavaScript
